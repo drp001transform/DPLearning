@@ -3,7 +3,7 @@ public class CountWater {
     public int measureWater(int mapProfile [] )  {
 
         int[] potentialWater;
-        potentialWater = new int[10]; // User to track squares that may contain water - each cell represents a horizontal level
+        potentialWater = new int[10]; // Used to track squares that may contain water - each cell represents a horizontal level
         int currentMaxHeight = 0;
         int trappedWater = 0;
 //
